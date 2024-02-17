@@ -1,0 +1,24 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  font-family: arial;
+  height: 100%;
+  width: 100%;
+
+}
+
+.containers{
+  display: flex;
+  height: 600px;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.item{
+  background-color: #7d8186;
+  padding: 17px;
+  margin: 0px;
+  border-radius: 10px;
+}

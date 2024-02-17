@@ -1,0 +1,35 @@
+nav#Menu{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #5d6166;
+  padding: 17px 0px 17px 0px;
+  margin: 17px 17px 17px 17px;
+  border-radius: 10px;
+}
+
+nav#Menu ul li{
+  list-style-type: none;
+}
+
+nav#Menu ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+
+nav#Menu > ul > li > a{
+  color: black;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+@media (max-width: 500px) {
+  nav#Menu ul{
+    flex-direction: column;
+    text-align: center;
+  }
+}
